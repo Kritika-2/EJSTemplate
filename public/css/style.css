@@ -1,0 +1,56 @@
+
+*{
+    margin:2px;
+    padding:1.5px;
+}
+body{
+    background-color:rgb(9, 9, 9);
+}
+
+h2,button,p{
+    color:white;
+}
+button{
+    background-color:rgb(6, 27, 83);
+}
+img{
+    height:300px;
+    width:390px;
+    object-fit: cover; 
+   
+
+
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.post {
+    width: 350px;
+    padding: 10px; /* Adding padding inside each post */
+    border-radius: 5px; /* Adding rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+button {
+    background-color: rgb(30, 30, 169);
+    color: white;
+    border: none;
+    padding: 8px 10px; 
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+footer {
+    background-color:black;
+    opacity:0.5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
